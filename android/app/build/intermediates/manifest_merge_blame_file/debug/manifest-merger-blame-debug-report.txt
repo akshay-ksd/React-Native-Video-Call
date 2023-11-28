@@ -1,0 +1,136 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.webrtcproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/debug/AndroidManifest.xml:5:22-75
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:3:7-62
+13-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:3:21-59
+14    <uses-feature android:name="android.hardware.camera.autofocus" />
+14-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:4:7-72
+14-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:4:21-69
+15    <uses-feature android:name="android.hardware.audio.output" />
+15-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:5:7-68
+15-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:5:21-65
+16    <uses-feature android:name="android.hardware.microphone" />
+16-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:6:7-66
+16-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:6:21-63
+17
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:8:7-67
+18-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:8:24-64
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:9:7-73
+19-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:9:24-70
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:10:7-81
+20-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:10:24-78
+21    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+21-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:11:7-81
+21-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:11:24-78
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:12:7-82
+22-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:12:24-79
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:13:7-69
+23-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:13:24-66
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:14:7-70
+24-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:14:24-67
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->[com.facebook.flipper:flipper:0.182.0] /Users/weft/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+25-->[com.facebook.flipper:flipper:0.182.0] /Users/weft/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+26
+27    <application
+27-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:16:5-36:19
+28        android:name="com.webrtcproject.MainApplication"
+28-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:17:7-38
+29        android:allowBackup="false"
+29-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:22:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.7.0] /Users/weft/.gradle/caches/transforms-3/75e4635b66fa4e4e84e71b52579837ce/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:hardwareAccelerated="true"
+32-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:20:7-41
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:19:7-41
+34        android:label="@string/app_name"
+34-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:18:7-39
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:21:7-52
+36        android:theme="@style/AppTheme"
+36-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:23:7-38
+37        android:usesCleartextTraffic="true" >
+37-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/debug/AndroidManifest.xml:8:9-44
+38        <activity
+38-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/debug/AndroidManifest.xml:11:9-111
+39            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+39-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/debug/AndroidManifest.xml:11:19-83
+40            android:exported="false" />
+40-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/debug/AndroidManifest.xml:11:84-108
+41        <activity
+41-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:24:7-35:18
+42            android:name="com.webrtcproject.MainActivity"
+42-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:25:9-37
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+43-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:27:9-118
+44            android:exported="true"
+44-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:30:9-32
+45            android:label="@string/app_name"
+45-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:26:9-41
+46            android:launchMode="singleTask"
+46-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:28:9-40
+47            android:windowSoftInputMode="adjustResize" >
+47-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:29:9-51
+48            <intent-filter>
+48-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:31:9-34:25
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:32:13-65
+49-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:32:21-62
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:33:13-73
+51-->/Users/weft/Documents/WeftProjects/webRtcProject/android/app/src/main/AndroidManifest.xml:33:23-70
+52            </intent-filter>
+53        </activity>
+54
+55        <meta-data
+55-->[com.facebook.soloader:soloader:0.10.5] /Users/weft/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+56            android:name="com.facebook.soloader.enabled"
+56-->[com.facebook.soloader:soloader:0.10.5] /Users/weft/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+57            android:value="false" />
+57-->[com.facebook.soloader:soloader:0.10.5] /Users/weft/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.0.0] /Users/weft/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.0.0] /Users/weft/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+61            android:authorities="com.webrtcproject.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.0.0] /Users/weft/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.0.0] /Users/weft/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/weft/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/weft/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.0.0] /Users/weft/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/weft/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/weft/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/weft/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+69        </provider>
+70    </application>
+71
+72</manifest>
